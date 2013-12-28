@@ -1,6 +1,10 @@
-prefix ndi: <https://github.com/egonw/nardb2014index/#> .
-prefix cito: <http://purl.org/spar/cito/> .
-prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ndi: <https://github.com/egonw/nardb2014index/#> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
-ndi:D459 cito:isDescribedBy <http://dx.doi.org/10.1093/nar/gkt1103> ;
+ndi:D459 a void:DataSet ;
+  cito:isDescribedBy <http://dx.doi.org/10.1093/nar/gkt1103> ;
+  dcterms:license <http://biocyc.org/download.shtml> ;
   foaf:homepage <http://MetaCyc.org/> .
