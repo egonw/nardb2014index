@@ -1,4 +1,4 @@
-nardb2014index
-==============
+NAR Database Issue 2014 Index
+=============================
 
-NAR Database Issue 2014 Inded
+A RDF Turtle based index of NAR databases, focussing on APIs and licenses primarily.
